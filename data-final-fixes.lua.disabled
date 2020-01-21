@@ -1,0 +1,40 @@
+--
+-- Created by IntelliJ IDEA.
+-- User: Leon
+-- Date: 31.10.2017
+-- Time: 18:35
+-- To change this template use File | Settings | File Templates.
+--
+
+-- delete tracks
+--data.raw["ambient-sound"]["after-the-crash"] = nil;
+--data.raw["ambient-sound"]["censeqs-discrepancy"] = nil;
+--data.raw["ambient-sound"]["research-and-minerals"] = nil;
+--data.raw["ambient-sound"]["transmit"] = nil;
+
+--add new tracks
+data.raw["ambient-sound"]["sepro"] = {
+    name = "sepro",
+    sound = {
+        filename = "__Seprom__/sound/ambient/Sepro1.ogg"
+    },
+    track_type = "main-track",
+    type = "ambient-sound"
+}
+data.raw["ambient-sound"]["haluzsqua"] = {
+    name = "haluzsqua",
+    sound = {
+        filename = "__Seprom__/sound/ambient/Haluzsqua.ogg"
+    },
+    track_type = "main-track",
+    type = "ambient-sound"
+}
+data.raw["ambient-sound"]["intro"] = {
+    name = "intro",
+    sound = {
+        filename = "__Seprom__/sound/ambient/Intro.ogg"
+    },
+    track_type = "main-track",
+    type = "ambient-sound"
+}
+
